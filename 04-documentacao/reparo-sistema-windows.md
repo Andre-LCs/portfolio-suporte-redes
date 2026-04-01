@@ -1,8 +1,14 @@
 # 🛠️ Limpeza, manutenção e reparo de sistema Windows
 
-Uma sequência de comando para fazer uma limpeza/manutenção/conserto de chave de registro corrompidas e reparo de arquivos corrompidos ou ausentes. Seguem os comandos na ordem:
+# Sequência de comando para fazer uma limpeza/manutenção/conserto de chave de registro corrompidas e reparo de arquivos corrompidos ou ausentes.
+
+# 1. Verifica a integridade da imagem do Windows
 DISM /Online /Cleanup-Image /ScanHealth
+
+# 2. Repara a imagem do sistema
 DISM /Online /Cleanup-Image /RestoreHealth
+
+# 3. Verifica e corrige arquivos do sistema
 sfc /scannow
 
 Executando esses comandos nessa ordem, pelo prompt, será feita a limpeza/restauração do sistema e o computador vai ficar BALA.
