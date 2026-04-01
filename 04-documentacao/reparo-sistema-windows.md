@@ -1,6 +1,6 @@
 # 🛠️ Limpeza, manutenção e reparo de sistema Windows
 
-# Sequência de comando para fazer uma limpeza/manutenção/conserto de chave de registro corrompidas e reparo de arquivos corrompidos ou ausentes.
+Sequência de comando para fazer uma limpeza/manutenção/conserto de chave de registro corrompidas e reparo de arquivos corrompidos ou ausentes.
 
 # 1. Verifica a integridade da imagem do Windows
 DISM /Online /Cleanup-Image /ScanHealth
